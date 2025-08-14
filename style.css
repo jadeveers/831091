@@ -1,0 +1,67 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+/* Settings */
+:root {
+  --body-color: #e3e3e3;
+  --bg-color: #131314;
+  --title-color: rgb(181, 222, 181);
+  --heading-color: #d6a9b5;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+  }
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  font-size: 1.15em;
+  font-weight: 350;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.4;
+  max-width: 720px;
+  margin: 0 auto 0 auto;
+  background-color: #131314;
+  color: #e3e3e3;
+}
+
+header {
+  text-align: center;
+  text-transform: uppercase;
+}
+header h1 {
+  color: var(--heading-color);
+}
+header nav p a {
+  padding: 0.5em;
+  display: none;
+}
+header a {
+  text-decoration: none;
+  color: #e3e3e3;
+}
+a {
+  color: #e3e3e3;
+}
+
+h1 {
+  color: var(--title-color);
+}
+h2, h3, h4 {
+  color: var(--heading-color);
+}
+
+#span-xyz {
+  font-size: 70%;
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 90%;
+  height: auto;
+}
+figcaption {
+  text-align: center;
+  opacity: 80%;
+}
