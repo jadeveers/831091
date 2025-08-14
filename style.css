@@ -18,7 +18,7 @@ body {
   font-weight: 350;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  line-height: 1.4;
+  line-height: 1.5;
   max-width: 720px;
   margin: 0 auto 0 auto;
   background-color: #131314;
@@ -29,12 +29,13 @@ header {
   text-align: center;
   text-transform: uppercase;
 }
-header h1 {
-  color: var(--heading-color);
+.title img {
+  width: 70%;
+  height: auto;
 }
 header nav p a {
   padding: 0.5em;
-  display: none;
+  /* display: none; */
 }
 header a {
   text-decoration: none;
